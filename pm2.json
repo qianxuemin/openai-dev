@@ -1,0 +1,15 @@
+{
+    "name": "open-dev-3001",
+    "script": "index.js",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "error_file": "./logs/app-err.log",
+    "out_file": "./logs/open-dev-3001.stdout.log",
+    "max_memory_restart": "800M",
+    "watch": true,
+    "instances": 0,
+    "exec_mode": "cluster",
+    "ignore_watch": [
+        "node_modules",
+        "logs"
+    ]
+}
